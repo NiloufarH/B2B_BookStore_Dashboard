@@ -1,0 +1,6 @@
+Pandas
+Numpy
+Streamlit
+Openpyxl
+Plotly
+Scikit-learn
