@@ -1,6 +1,18 @@
-Pandas
-Numpy
-Streamlit
-Openpyxl
-Plotly
-Scikit-learn
+# Data handling
+pandas>=3.1.1
+numpy>=2.5.5
+openpyxl>=3.1.5        # read/write Excel files (.xlsx)
+
+# Charts
+plotly>=7.1.0
+
+# Clustering (customer segmentation)
+scikit-learn>=1.9.1
+
+# Dashboard
+streamlit>=1.67.0
+
+# Running the notebooks
+ipykernel>=7.4.0       # Jupyter kernel for the venv (includes IPython)
+nbformat>=5.11.1       # needed by Plotly to show charts in notebooks
+jinja2>=3.1.6          # needed by pandas to show formatted tables (DataFrame.style)
